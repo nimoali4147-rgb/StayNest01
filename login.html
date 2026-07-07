@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+
+    </style>
+</head>
+
+<body>
+    <nav class="bg-blue-950 shadow-md">
+        <div class="max-w-8xl max-auto px-7 py-5">
+            <div class="flex item-center justify-between h-16">
+                <!-- Logo -->
+                <h1 class="text-6xl font-extrabold">
+                    <span class="text-white">Stay</span>
+                    <span class="text-yellow-500">Nest</span>
+                </h1>
+                <!--menu-->
+                <div class="flex items-center gap-20">
+                    <ul class="flex text-lg items-center gap-12 font-bold">
+                        <li><a href="index.html"
+                                class="text-yellow-500 hover:text-white transition duration-300">Home</a>
+                        </li>
+                        <li><a href="about.html" class="text-yellow-500 hover:text-white transition duration-300">About
+                                Us</a></li>
+                        <li><a href="rooms.html"
+                                class="text-yellow-500 hover:text-white transition duration-300">Rooms</a>
+                        </li>
+                        <li><a href="contact.html"
+                                class="text-yellow-500 hover:text-white transition duration-300">Contact</a></li>
+                       
+                        <li><a href="gallary.html"
+                                class="text-yellow-500 hover:text-white transition duration-300">Gallary</a></li>
+                    </ul>
+                    <button>
+                        <a href="login.html"
+                            class="px-4 py-2 h-10 bg-white border-2 border-sky-500 rounded-full  font-bold hover:bg-sky-500 hover:text-white transition duration-300">Login</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--hero section-->
+    <div
+        class="w-109 h-130 ml-115 mt-50 mt-50 mb-50 border-2 rounded-lg border-gray-400 bg-white/15 backdrop-blur shadow-2xl ">
+        <div class="text-2xl font-bold ">
+            <h1 class="text-white text-5xl font-bod item-center -ml-7 -mt-12 py-20 px-42">Login</h1>
+        </div>
+
+        <div class="w-full ml-5  -mt-10 text-white">
+            <label for="email" class="mb-2 block text-xl ml-6 font-bold  -mt-2 text-white">
+                Email Address
+            </label>
+
+            <input type="email" id="email" name="email" placeholder="john@gmail.com"
+                class="w-90 ml-4 rounded-lg text-white border border-gray-300 px-4 py-3" />
+        </div>
+
+
+        <div class="w-full mt-7 ml-5 text-white">
+            <label for="Password" class="mb-2 block text-xl ml-6 font-bold text-white">
+                Password
+            </label>
+
+            <input type="Password" id="Password" name="Password" placeholder="Enter Password"
+                class="w-90 ml-6  rounded-lg border border-gray-300 px-4 py-3" />
+        </div>
+
+        <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <input type="checkbox" id="remember" class="h-4 w-4 ml-12 mt-2 rounded border-gray-300 text-sky-400 " />
+
+                <label for="remember" class="text-sm mt-2 text-white">
+                    Remember me
+                </label>
+            </div>
+
+
+            <a href="#" class="text-sm text-white mr-12 mt-2 hover:underline">
+                Forgot Password?
+            </a>
+
+        </div>
+
+        <div
+            class="w-50  h-10 flex items-center justify-center ml-28 mt-6 bg-gray-200 rounded-full border-2 border-sky-600">
+            <a href="index.html" alt="" class="text-3xl font-bold text-blue-950 -mt-2 ">Login</a>
+
+        </div>
+
+        <div>
+            <p class="text-white font-regular ml-32 text-sm mt-2 ">Don't have account: <a href="index.html" alt=""
+                    class="text-md font-bold text-blue-400">Register</a></p>
+        </div>
+
+
+
+    </div>
+
+
+    <!--footer section-->
+
+
+    <div class="bg-blue-950 text-white py-10 line-clamp-1 mt-4">
+        <p class="text-sm text-white text-center justify-center mt-4">
+            © 2026 StayNest. All Rights Reserved.
+        </p>
+    </div>
+
+    </footer>
+
+</body>
+
+</html>
