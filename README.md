@@ -23,10 +23,19 @@ Depending on the project implementation, this application may use:
 - Cloudflare Pages (Deployment)
 
 
-## 🛠️ Home page
+##  Home page
 ![alt text](assets/screen1.png)
 
+## About page
+![alt text](assets/scren2.png)
 
+ ## Contact
+![alt text](assets/Screenshot%202026-07-08%20120510.png)
+
+
+
+ ## Gallary
+![alt text](assets/Screenshot%204.png)
 
 
 
