@@ -9,3 +9,15 @@ body{
 
 
 
+/* Styles for phones and tablets */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  .container {
+    width: 100%;
+    flex-direction: column; /* Stack elements vertically on mobile */
+  }
+}
+
+
