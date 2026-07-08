@@ -43,7 +43,8 @@ Depending on the project implementation, this application may use:
 
 **Nimo Ali**
 
-GitHub: https://github.com/nimoali4147-rgb
+
+https://www.figma.com/design/hUwxskh14fbrk4MVPJ97CY/Untitled?node-id=9-2&t=w4OatxF8LG6b6Btn-1
 
 ---
 
